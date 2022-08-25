@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Info</title>
+
+    <!-- Fonts only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Appointment.css">
+
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-md nav-bg">
+            <!-- <h1 class="navbar-brand">Mortgage Info</h1> -->
+            <!-- <a class="navbar-brand" href="">Mortgage Info</a> -->
+            <img class="navbar-brand nav-image" src="https://manulife.service-now.com/5a3c74931b16e450ba51c8866e4bcb9b.iix" alt="Manulife-John Hancock">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navItems" aria-controls="navItems" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navItems">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#AboutUs">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#FAQs">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-light btn-outline-primary nav-link" href="index.html#ContactUs" role="button">Contact Us</a>
+                        <!-- <button class="btn bg-light nav-link">Contact Us</button> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <form class="apnmt-form" action="index.html" method="post">
+        <div class="row mb-3">
+            <div class="col-sm-4">
+                <label class="form-label form-label-item" for="">Name : </label>
+            </div>
+            <div class="col-sm-8">
+                <input class="form-control form-input-item" type="text" name="fullName" value="" placeholder="Full Name" required>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-4">
+                <label class="form-label form-label-item" for="">Email ID : </label>
+            </div>
+            <div class="col-sm-8">
+                <input class="form-control form-input-item" type="email" name="email" value="" placeholder="abc@example.com" required>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-4">
+                <label class="form-label form-label-item" for="">Contact No. : </label>
+            </div>
+            <div class="col-sm-8">
+                <input class="form-control form-input-item" type="number" name="phone" value="" placeholder="Mobile Number" minlength="10" maxlength="10" required>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-4">
+                <label class="form-label form-label-item" for="">Date of Appointment : </label>
+            </div>
+            <div class="col-sm-8">
+                <input class="form-control form-input-item" type="date" name="date" value="" required>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+    </form>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+</html>
