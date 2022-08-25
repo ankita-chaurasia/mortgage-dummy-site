@@ -1,0 +1,17 @@
+
+.apnmt-form {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.form-input-item {
+    /* display: inline; */
+    width: 75%;
+    float: left;
+}
+
+.form-label-item {
+    float: right;
+    margin: 0.4rem;
+}

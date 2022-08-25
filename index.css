@@ -1,0 +1,77 @@
+
+body {
+    color: #242F9B;
+}
+
+section {
+    padding: 50px 0;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.section-headings {
+    font-family: 'Playfair Display', serif;
+    margin: 1rem 0 2rem;
+    text-align: center;
+}
+
+.nav-image {
+    height: 75px;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.nav-bg, #Footer {
+    background-color: #646FD4;
+    font-family: 'Merriweather', serif;
+    font-size: large;
+    padding: 10px 50px;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+#Home, #FAQs {
+    background-color: #DBDFFD;
+    /* color: #242F9B; */
+}
+
+#AboutUs, #ContactUs {
+    background-color: #FEFBF6;
+}
+
+.rows {
+    padding: 5px 25px;
+}
+
+.au-image {
+    float: right;
+    height: 100px;
+    padding-right: 100px;
+}
+
+.au-p {
+    margin: 2rem 0;
+}
+
+.faq-q {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.faq-a {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.copyright {
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+}
